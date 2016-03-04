@@ -1,0 +1,21 @@
+<beanio xmlns="http://www.beanio.org/2012/03" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.beanio.org/2012/03 http://www.beanio.org/2012/03/mapping.xsd">
+<!-- 
+/**
+ * @author Tuhin Gupta
+ *
+ */
+-->
+	<stream name="csvFile" format="csv">
+
+		<group name="bodygroup" minOccurs="1"  order="1">
+			<record name="csvRecord" class="io.tuhin.model.Record">
+				<field name="id" />
+				<field name="invoiceId" />
+				<field name="itemId" />
+			</record>
+		</group>
+	</stream>
+
+  </beanio>

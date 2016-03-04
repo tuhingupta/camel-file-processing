@@ -1,0 +1,7 @@
+.classpath
+.project
+.settings
+.tern-project
+activemq-data
+target
+.DS_Store
